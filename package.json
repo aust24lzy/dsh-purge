@@ -35,7 +35,8 @@
   ],
   "scripts": {
     "embed-prompt": "node scripts/embed-default-prompt.mjs",
-    "build:client": "node scripts/build-client.mjs"
+    "build:client": "node scripts/build-client.mjs",
+    "test": "node --test test/*.test.mjs"
   },
   "license": "MIT",
   "keywords": [
